@@ -106,3 +106,4 @@ def variable_literals():
     #Output
     #None
 
+variable_literals()

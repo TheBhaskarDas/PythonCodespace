@@ -49,3 +49,6 @@ def type_conv():
     Sum: 35
     Data type of num_sum: <class 'int'>
     '''
+
+
+type_conv()
