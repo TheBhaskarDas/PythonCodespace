@@ -1,6 +1,6 @@
 def list():
     #Here we are creating Python List using [].
-    Var = ["Geeks", "for", "Geeks"]
+    Var = ["T", "B", "D"]
     print(Var)
 #_________________________Creating a List in Python____________________________________#
     #Example 1: Creating a list in Python
@@ -19,7 +19,7 @@ def list():
 
     # Creating a List of strings and accessing
     # using index
-    List = ["Geeks", "For", "Geeks"]
+    List = ["T", "B", "D"]
     print("\nList Items: ")
     print(List[0])
     print(List[2])
@@ -36,7 +36,7 @@ def list():
     # Creating a List with
     # mixed type of values
     # (Having numbers and strings)
-    List = [1, 2, 'Geeks', 4, 'For', 6, 'Geeks']
+    List = [1, 2, 'The', 4, 'Bhaskar', 6, 'Das']
     print("\nList with the use of Mixed Values: ")
     print(List)
 
@@ -47,7 +47,7 @@ def list():
 
     # Creating a List with
     # the use of multiple values
-    List = ["Geeks", "For", "Geeks"]
+    List = ["The", "Bhaskar", "Das"]
 
     # accessing a element from the
     # list using index number
@@ -59,7 +59,7 @@ def list():
     #Example 2: Accessing elements from a multi-dimensional list
     # Creating a Multi-Dimensional List
     # (By Nesting a list inside a List)
-    List = [['Geeks', 'For'], ['Geeks']]
+    List = [['T', 'B'], ['D']]
 
     # accessing an element from the
     # Multi-Dimensional List using
@@ -70,7 +70,7 @@ def list():
 
     # _________________________________________________________________#
     #Negative indexing
-    List = [1, 2, 'Geeks', 4, 'For', 6, 'Geeks']
+    List = [1, 2, 'T', 4, 'B', 6, 'D']
 
     # accessing an element using
     # negative indexing
@@ -175,14 +175,14 @@ def list():
     # Addition of multiple elements
     # to the List at the end
     # (using Extend Method)
-    List.extend([8, 'Geeks', 'Always'])
+    List.extend([8, 'Bhaskar', 'Always'])
     print("\nList after performing Extend Operation: ")
     print(List)
 
     # __________________Reversing a List_______________________________________________#
     #Method 1:  A list can be reversed by using the reverse() method in Python.
     # Reversing a list
-    mylist = [1, 2, 3, 4, 5, 'Geek', 'Python']
+    mylist = [1, 2, 3, 4, 5, 'Bhaskar', 'Python']
     mylist.reverse()
     print(mylist)
 
