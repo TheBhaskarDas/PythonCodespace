@@ -23,7 +23,7 @@ def while_loop():
     #Python while loop with continue statement
     # Prints all letters except 'e' and 's'
     i = 0
-    a = 'geeksforgeeks'
+    a = 'thebhaskardas'
 
     while i < len(a):
         if a[i] == 'e' or a[i] == 's':
@@ -37,7 +37,7 @@ def while_loop():
     # break the loop as soon it sees 'e'
     # or 's'
     i = 0
-    a = 'geeksforgeeks'
+    a = 'thebhaskardas'
 
     while i < len(a):
         if a[i] == 'e' or a[i] == 's':
@@ -51,7 +51,7 @@ def while_loop():
     # break the loop as soon it sees 'e'
     # or 's'
     i = 0
-    a = 'geeksforgeeks'
+    a = 'thebhaskardas'
 
     while i < len(a):
         if a[i] == 'e' or a[i] == 's':
@@ -63,7 +63,7 @@ def while_loop():
 
     #Python while loop with a pass statement
     # An empty loop
-    a = 'geeksforgeeks'
+    a = 'thebhaskardas'
     i = 0
 
     while i < len(a):

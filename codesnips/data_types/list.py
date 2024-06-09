@@ -110,8 +110,7 @@ def list():
     Method 1: Using append() method
     Elements can be added to the List by using the built-in append() function. Only one element at a time can be added to the list by using the append() method, for the addition of multiple elements with the append() method, loops are used. Tuples can also be added to the list with the use of the append method because tuples are immutable. Unlike Sets, Lists can also be added to the existing list with the use of the append() method.
     '''
-    # Python program to demonstrate
-    # Addition of elements in a List
+    # Python program to demonstrate Addition of elements in a List
 
     # Creating a List
     List = []
@@ -139,68 +138,65 @@ def list():
     print(List)
 
     # Addition of List to a List
-    List2 = ['For', 'Geeks']
+    List2 = ['Das', 'Bhaskar']
     List.append(List2)
     print("\nList after Addition of a List: ")
     print(List)
 
     # _________________________________________________________________#
-    #Method 2: Using insert() method
-    # Python program to demonstrate
-    # Addition of elements in a List
+    # Method 2: Using insert() method
+    # Python program to demonstrate Addition of elements in a List
 
     # Creating a List
     List = [1, 2, 3, 4]
     print("Initial List: ")
     print(List)
 
-    # Addition of Element at
-    # specific Position
-    # (using Insert Method)
+    # Addition of Element at specific Position (using Insert Method)
     List.insert(3, 12)
-    List.insert(0, 'Geeks')
+    List.insert(0, 'Bhaskar')
     print("\nList after performing Insert Operation: ")
     print(List)
 
     # _________________________________________________________________#
-    #Method 3: Using extend() method
-    # Python program to demonstrate
-    # Addition of elements in a List
+    # Method 3: Using extend() method
+    # Python program to demonstrate Addition of elements in a List
 
     # Creating a List
-    List = [1, 2, 3, 4]
+    List = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     print("Initial List: ")
     print(List)
 
-    # Addition of multiple elements
-    # to the List at the end
-    # (using Extend Method)
+    # Print elements of a List
+    for i in range(List1[0], List1[4]):
+        print(i)
+
+    # Addition of multiple elements to the List at the end (using Extend Method)
     List.extend([8, 'Bhaskar', 'Always'])
     print("\nList after performing Extend Operation: ")
     print(List)
 
     # __________________Reversing a List_______________________________________________#
-    #Method 1:  A list can be reversed by using the reverse() method in Python.
+    # Method 1:  A list can be reversed by using the reverse() method in Python.
     # Reversing a list
     mylist = [1, 2, 3, 4, 5, 'Bhaskar', 'Python']
     mylist.reverse()
     print(mylist)
 
     # _________________________________________________________________#
-    #Method 2: Using the reversed() function:
+    # Method 2: Using the reversed() function:
     my_list = [1, 2, 3, 4, 5]
     reversed_list = list(reversed(my_list))
     print(reversed_list)
 
-    # ________________Removing Elements from the List_________________________________________________#
-    #Method 1: Using remove() method
+    # ________________Removing Elements from the List______________________#
+    # Method 1: Using remove() method
     # Python program to demonstrate
     # Removal of elements in a List
 
-    #Example 1:
+    # Example 1:
     # Creating a List
-    List = [1, 2, 3, 4, 5, 6,
-            7, 8, 9, 10, 11, 12]
+    List = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     print("Initial List: ")
     print(List)
 
@@ -212,10 +208,9 @@ def list():
     print(List)
 
     # _________________________________________________________________#
-    #Example 2:
+    # Example 2:
     # Creating a List
-    List = [1, 2, 3, 4, 5, 6,
-            7, 8, 9, 10, 11, 12]
+    List = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     # Removing elements from List
     # using iterator method
     for i in range(1, 5):
@@ -224,11 +219,10 @@ def list():
     print(List)
 
     # _________________________________________________________________#
-    #Method 2: Using pop() method
+    # Method 2: Using pop() method
     List = [1, 2, 3, 4, 5]
 
-    # Removing element from the
-    # Set using the pop() method
+    # Removing element from the Set using the pop() method
     List.pop()
     print("\nList after popping an element: ")
     print(List)

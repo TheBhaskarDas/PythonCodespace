@@ -1,16 +1,16 @@
 def dictionary():
     # _________________________________________________________________#
-    Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
+    Dict = {1: 'The', 2: 'Bhaskar', 3: 'Das'}
     print(Dict)
 
     # ____________________Create a Dictionary_____________________________________________#
 
     # How to Create a Dictionary
-    Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
+    Dict = {1: 'The', 2: 'Bhaskar', 3: 'Das'}
     print("\nDictionary with the use of Integer Keys: ")
     print(Dict)
 
-    Dict = {'Name': 'Geeks', 1: [1, 2, 3, 4]}
+    Dict = {'Name': 'The', 1: [1, 2, 3, 4]}
     print("\nDictionary with the use of Mixed Keys: ")
     print(Dict)
 
@@ -20,18 +20,18 @@ def dictionary():
     print("Empty Dictionary: ")
     print(Dict)
 
-    Dict = dict({1: 'Geeks', 2: 'For', 3: 'Geeks'})
+    Dict = dict({1: 'The', 2: 'Bhaskar', 3: 'Das'})
     print("\nDictionary with the use of dict(): ")
     print(Dict)
 
-    Dict = dict([(1, 'Geeks'), (2, 'For')])
+    Dict = dict([(1, 'The'), (2, 'Bhaskar')])
     print("\nDictionary with each item as a pair: ")
     print(Dict)
 
     # _________________________________________________________________#
     # Nested Dictionaries
-    Dict = {1: 'Geeks', 2: 'For',
-            3: {'A': 'Welcome', 'B': 'To', 'C': 'Geeks'}}
+    Dict = {1: 'Hello',
+            3: {'A': 'The', 'B': 'Bhaskar', 'C': 'Das'}}
     print(Dict)
 
     # https://t.ly/pG8-H
@@ -39,8 +39,8 @@ def dictionary():
     Dict = {}
     print("Empty Dictionary: ")
     print(Dict)
-    Dict[0] = 'Geeks'
-    Dict[2] = 'For'
+    Dict[0] = 'The'
+    Dict[2] = 'Bhaskar'
     Dict[3] = 1
     print("\nDictionary after adding 3 elements: ")
     print(Dict)
@@ -52,12 +52,12 @@ def dictionary():
     Dict[2] = 'Welcome'
     print("\nUpdated key value: ")
     print(Dict)
-    Dict[5] = {'Nested': {'1': 'Life', '2': 'Geeks'}}
+    Dict[5] = {'Nested': {'1': 'Life', '2': 'The'}}
     print("\nAdding a Nested Key: ")
     print(Dict)
 
     # _____________________________Accessing Elements of a Dictionary____________________________________#
-    Dict = {1: 'Geeks', 'name': 'For', 3: 'Geeks'}
+    Dict = {1: 'The', 'name': 'Bhaskar', 3: 'Das'}
     print("Accessing a element using key:")
     print(Dict['name'])
     print("Accessing a element using key:")
@@ -65,19 +65,19 @@ def dictionary():
 
     # _________________________________________________________________#
     # Access a Value in Dictionary using get() in Python
-    Dict = {1: 'Geeks', 'name': 'For', 3: 'Geeks'}
+    Dict = {1: 'The', 'name': 'Bhaskar', 3: 'Das'}
     print("Accessing a element using get:")
     print(Dict.get(3))
 
-    # ______________________________Accessing an Element of a Nested Dictionary___________________________________#
-    Dict = {'Dict1': {1: 'Geeks'}, 'Dict2': {'Name': 'For'}}
+    # ______________________________Accessing an Element of a Nested Dictionary_________________________#
+    Dict = {'Dict1': {1: 'The'}, 'Dict2': {'2': 'Bhaskar'}}
 
     print(Dict['Dict1'])
     print(Dict['Dict1'][1])
     print(Dict['Dict2']['Name'])
 
-    # _______________________________Deleting Elements using ‘del’ Keyword__________________________________#
-    Dict = {1: 'Geeks', 'name': 'For', 3: 'Geeks'}
+    # _______________________________Deleting Elements using ‘del’ Keyword______________________________#
+    Dict = {1: 'The', 'name': 'Bhaskar', 3: 'Das'}
 
     print("Dictionary =")
     print(Dict)

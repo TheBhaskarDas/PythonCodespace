@@ -64,14 +64,14 @@ def for_loop():
     #Continue in Python For Loop
     # Prints all letters except 'e' and 's'
 
-    for letter in 'geeksforgeeks':
+    for letter in 'thebhaskardas':
 
         if letter == 'e' or letter == 's':
             continue
         print('Current Letter :', letter)
 
     #Break in Python For Loop
-    for letter in 'geeksforgeeks':
+    for letter in 'thebhaskardas':
 
         # break the loop as soon it sees 'e'
         # or 's'
@@ -82,7 +82,7 @@ def for_loop():
 
     #For Loop in Python with Pass Statement
     # An empty loop
-    for letter in 'geeksforgeeks':
+    for letter in 'thebhaskardas':
         pass
     print('Last Letter :', letter)
 

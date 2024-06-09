@@ -93,6 +93,9 @@ def args_kwargs():
     # printing the color and speed of the cars
     print(audi.color)
     print(bmw.speed)
+    '''
+    Explain - https://chatgpt.com/c/0f901615-7850-473f-bc82-dd94d98ea951
+    '''
 
     # Example 2: using Python **kwargs
     # defining car class

@@ -11,7 +11,7 @@ def tuples():
 
     # Creating a Tuple
     # with the use of string
-    Tuple1 = ('Geeks', 'For')
+    Tuple1 = ('Bhaskar', 'For')
     print("\nTuple with the use of String: ")
     print(Tuple1)
 
@@ -23,7 +23,7 @@ def tuples():
 
     # Creating a Tuple
     # with the use of built-in function
-    Tuple1 = tuple('Geeks')
+    Tuple1 = tuple('Bhaskar')
     print("\nTuple with the use of function: ")
     print(Tuple1)
 
@@ -31,7 +31,7 @@ def tuples():
     # Creating a Tuple with Mixed Datatypes.
     # Creating a Tuple
     # with Mixed Datatype
-    Tuple1 = (5, 'Welcome', 7, 'Geeks')
+    Tuple1 = (5, 'Welcome', 7, 'Bhaskar')
     print("\nTuple with Mixed Datatypes: ")
     print(Tuple1)
 
@@ -45,13 +45,13 @@ def tuples():
 
     # Creating a Tuple
     # with repetition
-    Tuple1 = ('Geeks',) * 3
+    Tuple1 = ('Bhaskar',) * 3
     print("\nTuple with repetition: ")
     print(Tuple1)
 
     # Creating a Tuple
     # with the use of loop
-    Tuple1 = ('Geeks')
+    Tuple1 = ('Bhaskar')
     n = 5
     print("\nTuple with a loop")
     for i in range(int(n)):
@@ -61,12 +61,12 @@ def tuples():
     # ___________________________Accessing of Tuples______________________________________#
     # Accessing Tuple
     # with Indexing
-    Tuple1 = tuple("Geeks")
+    Tuple1 = tuple("Bhaskar")
     print("\nFirst element of Tuple: ")
     print(Tuple1[0])
 
     # Tuple unpacking
-    Tuple1 = ("Geeks", "For", "Geeks")
+    Tuple1 = ("The", "Bhaskar", "Das")
 
     # This line unpack
     # values of Tuple1
@@ -80,7 +80,7 @@ def tuples():
     # https: // t.ly / hXhvW
     # Concatenation of tuples
     Tuple1 = (0, 1, 2, 3)
-    Tuple2 = ('Geeks', 'For', 'Geeks')
+    Tuple2 = ('The', 'Bhaskar', 'Das')
 
     Tuple3 = Tuple1 + Tuple2
 
@@ -101,7 +101,7 @@ def tuples():
 
     # Slicing of a Tuple
     # with Numbers
-    Tuple1 = tuple('GEEKSFORGEEKS')
+    Tuple1 = tuple('THEBHASKARDAS')
 
     # Removing First element
     print("Removal of First Element: ")
