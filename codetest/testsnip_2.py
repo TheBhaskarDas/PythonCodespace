@@ -5,11 +5,31 @@
 # for i in range(List1[0],List1[4]):
 #     print(i)
 
-def myFun(**kwargs):
-    for key, value in kwargs.items():
-        print("%s == %s" % (key, value))
+# List1 = [1,2,3,4,5,6,7,8,9,10]
+# for x in range(List1[0],List1[9]):
+#     if x % 2 == 0:
+#         print(x)
 
-    # Driver code
+# List1 = [10,5,3,4,2,6,7,8,9,1]
+# List1.sort()
+# print(List1)
+
+# def myFun(**kwargs):
+#     for key, value in kwargs.items():
+#         print("%s == %s" % (key, value))
+#
+#     # Driver code
+# myFun(first='The', mid='Bhaskar', last='Das')
 
 
-myFun(first='The', mid='Bhaskar', last='Das')
+# fruits = ["apple", "banana", "kiwi", "lemon", "mango"]
+# new_list = []
+#
+# for x in fruits:
+#     if "a" in x:
+#         new_list.append(x)
+#
+# print(new_list)
+
+# odd_sq = [x ** 2 for x in range(1, 11) if x % 2 == 1]
+# print(odd_sq)
