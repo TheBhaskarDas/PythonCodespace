@@ -5,22 +5,21 @@ def while_loop():
     count = 0
     while (count < 3):
         count = count + 1
-        print("Hello Geek")
+        print("Hello Bhaskar")
 
-    #Infinite while Loop in Python
+    # Infinite while Loop in Python
     age = 28
 
     # the test condition is always True
-    while age > 19:
-        print('Infinite Loop')
-
+    # while age > 19:
+    #     print('Infinite Loop')
     '''
     Control Statements in Python with Examples
     Loop control statements change execution from their normal sequence. When execution leaves a scope, 
     all automatic objects that were created in that scope are destroyed. 
     Python supports the following control statements.
     '''
-    #Python while loop with continue statement
+    # Python while loop with continue statement
     # Prints all letters except 'e' and 's'
     i = 0
     a = 'thebhaskardas'
@@ -123,12 +122,32 @@ def while_loop():
     while a:
         print(a.pop())
 
-    #Single statement while block
+    # Single statement while block
     # Python program to illustrate
     # Single statement while block
     count = 0
     while (count < 5):
         count += 1
-        print("Hello Geek")
+        print("Hello Bhaskar")
+
+
+####################### My Creation ###############################
+# ___________ Find a string element in a List using While Loop ____________#
+
+list1 = ['apple', 'bus', 'alex', 'cat', 'cinema', 'dot', 'fun']
+list_len = len(list1)
+list2 = []
+v = 0
+while v < list_len:
+    # print(list1[v])
+    if 'a' in list1[v]:
+        print(list1[v])
+        list2.append(list1[v])
+        print(list2)
+    # for list_element in list1[v]:
+    #     print(list_element)
+    #     if 'a' in list_element:
+    #         print(list_element)
+    v += 1
 
 while_loop()

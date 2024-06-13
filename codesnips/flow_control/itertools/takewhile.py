@@ -45,7 +45,7 @@ def takewhile():
     from itertools import takewhile
 
     # input string
-    st ="GeeksforGeeks"
+    st = "TheBhaskarDas"
 
     # consider elements until
     # 's' is encountered

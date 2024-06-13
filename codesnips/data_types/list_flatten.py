@@ -16,7 +16,7 @@ def list_flatten():
     '''
     # _________________________________________________________________#
     # 1. Using List Comprehension to Flatten a List of Lists
-    res = [i for row in [[1, 3, "geeks"], [4, 5],
+    res = [i for row in [[1, 3, "Bhaskar"], [4, 5],
                          [6, "best"]] for i in row]
     print(res)
 
@@ -38,7 +38,7 @@ def list_flatten():
             return [test_list]
 
     # Initializing list
-    test_list = ['gfg', 1, [5, 6, 'geeks'], 67.4, [5], 'best']
+    test_list = ['gfg', 1, [5, 6, 'bhaskar'], 67.4, [5], 'best']
 
     # Flatten List to individual elements
     # using loop + isinstance()
