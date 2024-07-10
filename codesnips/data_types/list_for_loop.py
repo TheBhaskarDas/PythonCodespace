@@ -23,5 +23,14 @@ def list_for():
             list2.append(list_element)
             print(list2)
 
-
+    '''
+    apple
+    ['apple']
+    alex
+    ['apple', 'alex']
+    cat
+    ['apple', 'alex', 'cat']
+    cinema
+    ['apple', 'alex', 'cat', 'cinema']
+    '''
 list_for()

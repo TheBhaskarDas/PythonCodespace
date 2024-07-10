@@ -1,9 +1,20 @@
 def list():
-    #Here we are creating Python List using [].
+    # Write a function that takes a list of numbers and returns the list sorted in descending order.
+    def numbers(list01):
+        res01 = sorted(list01, reverse=True)
+        return res01
+        # or return sorted(list01, reverse=True)
+
+    list01 = [4, 9, 10, 2, 1, 7, 6, 5, 3, 8]
+    res02 = numbers(list01)
+    print(res02)
+
+    # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+    # Here we are creating Python List using [].
     Var = ["T", "B", "D"]
     print(Var)
-#_________________________Creating a List in Python____________________________________#
-    #Example 1: Creating a list in Python
+    # _________________________Creating a List in Python_________________#
+    # Example 1: Creating a list in Python
     # Python program to demonstrate
     # Creation of List
 
@@ -24,7 +35,7 @@ def list():
     print(List[0])
     print(List[2])
 
-    # _________________________________________________________________#
+    # ___________________________________________________________________#
     #Example 2:  Creating a list with multiple distinct or duplicate elements
     # Creating a List with
     # the use of Numbers
@@ -40,7 +51,7 @@ def list():
     print("\nList with the use of Mixed Values: ")
     print(List)
 
-    # _____________________________Accessing elements from the List____________________________________#
+    # _____________________________Accessing elements from the List_______#
     #Example 1: Accessing elements from list
     # Python program to demonstrate
     # accessing of element from list

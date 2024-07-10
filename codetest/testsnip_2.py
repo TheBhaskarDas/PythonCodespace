@@ -33,3 +33,17 @@
 
 # odd_sq = [x ** 2 for x in range(1, 11) if x % 2 == 1]
 # print(odd_sq)
+
+
+# def numbers(arg01):
+#    res = arg01.append(arg01[0])
+#    print(res)
+
+
+# def numbers(list01):
+#     res01 = sorted(list01, reverse=True)
+#     return res01
+#
+# list01 = [4, 9, 10, 2, 1, 7, 6, 5, 3, 8]
+# res02 =  numbers(list01)
+# print(res02)

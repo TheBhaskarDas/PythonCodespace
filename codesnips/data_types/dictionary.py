@@ -3,6 +3,21 @@ def dictionary():
     Dict = {1: 'The', 2: 'Bhaskar', 3: 'Das'}
     print(Dict)
 
+    # dict.items()
+    # When an item in the dictionary changes value, the view object also gets updated:
+    car = {
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": 1964
+    }
+
+    x = car.items()
+
+    car["year"] = 2018
+
+    print(x)
+
+    # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
     # ____________________Create a Dictionary_____________________________________________#
 
     # How to Create a Dictionary
@@ -40,6 +55,7 @@ def dictionary():
     print("Empty Dictionary: ")
     print(Dict)
     Dict[0] = 'The'
+    # 0 is a key and not the index
     Dict[2] = 'Bhaskar'
     Dict[3] = 1
     print("\nDictionary after adding 3 elements: ")
@@ -84,6 +100,7 @@ def dictionary():
     del (Dict[1])
     print("Data after deletion Dictionary=")
     print(Dict)
+
 
     '''
     Dictionary Methods

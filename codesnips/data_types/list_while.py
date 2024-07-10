@@ -17,5 +17,15 @@ def list_while():
         #         print(list_element)
         v += 1
 
+    '''
+    apple
+    ['apple']
+    alex
+    ['apple', 'alex']
+    cat
+    ['apple', 'alex', 'cat']
+    cinema
+    ['apple', 'alex', 'cat', 'cinema']
+    '''
 
 list_while()
